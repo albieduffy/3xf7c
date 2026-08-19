@@ -1,0 +1,11 @@
+# Python dependencies for the dissertation pipeline (run_dissertation_pipeline.py).
+# Trimmed from the source project's requirements.txt: this repo doesn't include
+# the classifier/poster stages, so scikit-learn, joblib, nltk, tqdm, and the
+# jupyter/nbconvert notebook toolchain are not needed.
+pandas>=1.3
+numpy>=1.20
+scipy>=1.7
+statsmodels>=0.13
+matplotlib>=3.4
+seaborn>=0.11
+pyarrow>=6.0
